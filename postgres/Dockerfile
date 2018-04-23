@@ -7,3 +7,4 @@ COPY configs/* /configs/
 ENTRYPOINT [ "/docker-entrypoint.sh" ]
 
 CMD ["postgres", "-c", "config_file=/configs/1gb-ram.conf"]
+
